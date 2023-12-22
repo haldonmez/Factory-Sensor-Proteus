@@ -10,7 +10,6 @@ sbit LCD_D4_Direction at TRISD4_bit;
 sbit LCD_D5_Direction at TRISD5_bit;
 sbit LCD_D6_Direction at TRISD6_bit;
 sbit LCD_D7_Direction at TRISD7_bit;
-char i; // Loop variable
 unsigned int adc_value, adc_gas, adc_sound;
 float temperature, temp_int;
 char txt[6], txt1[6];
